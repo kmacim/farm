@@ -68,13 +68,64 @@ body {
     
     
 }
-.design1 {
+/* .design1 {
     display: grid;
     justify-content: center;
     align-content: center;
     padding-top:10px;
+} */
+.fruit  {
+    display:grid;
+    justify-content: center;
+    
+    
 }
-.fruit{
+.box{
+    display:grid;
+    justify-content: center; 
+}
+h1, h2, h3{
+    text-align:center;
+}
+nav{
+    text-align:center;
+    padding-top: 10px;
+}
+.box> p {
+    padding-top: 10px;
+}
+/*adjust the text to center in image */
+.text, .text1  {
+    position:relative;
+    /*  */
+    
+}
+#place1{
+    position:absolute;
+    color:white;
+    inset-block:relative;
+    padding:8px 30px;
+    top: 40%;
+    left: 23%;   
+}
+#place{
+    position:absolute;
+    background-color:black ;
+    opacity: 0.5;
+    inset-block:relative;
+    padding:8px 30px;
+    top: 40%;
+    left: 22%;
+   
+   
+}
+#peaches, #oranges, #apples, #strawberries, #blueberries
+ {
+     padding-bottom:5%;
+}
+
+.veg{
+    
     display:grid;
     justify-content: center;
 }
