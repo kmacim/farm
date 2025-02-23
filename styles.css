@@ -69,12 +69,7 @@ body {
     
 }
 
-/* .design1 {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    padding-top:10px;
-} */
+
 .fruit  {
     display:grid;
     justify-content: center;
@@ -83,7 +78,8 @@ body {
 }
 .box{
     display:grid;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom:8px; 
 }
 h1, h3{
     text-align:center;
@@ -98,9 +94,36 @@ nav{
     text-align:center;
     padding-top: 10px;
 }
+
 .box> p {
     padding-top: 10px;
    font-style:italic;
+}
+
+/* create nav buttons for fruits and Vegetable */
+  .but a {
+     background-color: #E75D02;
+     border-radius: 5px;
+      border: none;
+      color:#ffffff;
+      padding: 10px 67px;
+      text-decoration-line: none;
+      display:inline-block;
+      font-size: 25px;
+      margin:-6px -8px;
+  } .but1 a {
+    
+      background-color: #E75D02;
+      border-radius: 5px;
+      border: none;
+      color:#ffffff;
+      padding: 10px 37px;
+      text-decoration-line: none;
+      display:inline-block;
+      font-size: 25px;
+      
+      margin:-6px -8px;
+      
 }
 /*adjust the text to center in image */
 .text, .text1  {
@@ -128,7 +151,8 @@ nav{
    
 }
 #peaches, #oranges, #apples, #strawberries, 
-#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons, #cantalopes {
+#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons, #cantalopes, #broccoli, #lettuce, 
+#eggplant, #spinach, #bean-sprout, #peas, #bell-pepper, #carrot, #potato, #cucumber, #tomato, #radish {
      padding-bottom:5%;
 } 
 
@@ -162,4 +186,29 @@ body{
 }
 footer{
     margin-left: 2%;
+}
+/* position the top link */
+.top a {
+    
+    display: inline-block;
+    background-color: #E75D02;
+      border: none;
+      color:#ffffff;
+      padding: 10px 20px;
+      text-decoration-line: none;
+      display:inline-block;
+      font-size: 14px;
+      margin:-6px -8px;
+      border-radius: 5px;
+      
+      
+      
+}
+.right{
+    display:grid;
+    grid-column:auto;
+    position:sticky;
+    float:right;
+    bottom:0;
+    
 }
