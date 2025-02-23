@@ -68,6 +68,7 @@ body {
     
     
 }
+
 /* .design1 {
     display: grid;
     justify-content: center;
@@ -84,8 +85,14 @@ body {
     display:grid;
     justify-content: center; 
 }
-h1, h2, h3{
+h1, h3{
     text-align:center;
+    font-family: "Irish Grover";
+    
+}
+p{
+     font-family:"Habibi";
+     font-size:medium;
 }
 nav{
     text-align:center;
@@ -93,6 +100,7 @@ nav{
 }
 .box> p {
     padding-top: 10px;
+   font-style:italic;
 }
 /*adjust the text to center in image */
 .text, .text1  {
@@ -119,13 +127,39 @@ nav{
    
    
 }
-#peaches, #oranges, #apples, #strawberries, #blueberries
- {
+#peaches, #oranges, #apples, #strawberries, 
+#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons, #cantalopes {
      padding-bottom:5%;
-}
+} 
 
 .veg{
     
     display:grid;
     justify-content: center;
+}
+/* CreateGreenBackgroundSizePadding */
+.box{
+    display:grid;
+    background-color: #06A816;
+    color:#ffffff;
+    padding-bottom:10px;
+}
+h1{
+    text-shadow: black 1px 4px;
+    font-size: 2.5em;
+}
+H2{
+    font-size:1.75em; 
+    font-family: "Irish Grover";
+    padding-bottom:2%;
+}
+h3{
+    font-size:1.25em;
+    padding-bottom:2%;
+}
+body{
+    margin-left: 2%;
+}
+footer{
+    margin-left: 2%;
 }
