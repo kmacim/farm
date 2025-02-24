@@ -150,12 +150,15 @@ nav{
    
    
 }
+/* padding for images */
 #peaches, #oranges, #apples, #strawberries, 
-#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons, #cantalopes, #broccoli, #lettuce, 
-#eggplant, #spinach, #bean-sprout, #peas, #bell-pepper, #carrot, #potato, #cucumber, #tomato, #radish {
+#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons,
+ #cantalopes, #broccoli, #lettuce, 
+#eggplant, #spinach, #bean-sprout, #peas,
+ #bell-pepper, #carrot, #potato, #cucumber, #tomato, #radish {
      padding-bottom:5%;
 } 
-
+/* centering veg info */
 .veg{
     
     display:grid;
@@ -187,7 +190,7 @@ body{
 footer{
     margin-left: 2%;
 }
-/* position the top link */
+/* position the top link at bottom right */
 .top a {
     
     display: inline-block;
@@ -211,4 +214,18 @@ footer{
     float:right;
     bottom:0;
     
+}
+#address, #hours {
+    text-align: center;
+    padding-bottom: 10px;
+   background-color:#06A816 ; 
+   color:white;
+   font-weight:bold;
+}
+.copy{
+    text-align:center;
+    color:green;
+    padding-top:10px;
+    font-weight:bold;
+}
 }
