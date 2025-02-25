@@ -191,7 +191,7 @@ footer{
       margin:-6px -8px;
       border-radius: 5px;
       
-      
+     
       
 }
 .right{
@@ -213,9 +213,9 @@ footer{
     text-align:center;
     color:green;
 }
-/* @media screen and (min-width: 600px){
+@media screen and (min-width: 600px){
     
-   
+   /*  */
 }
 ul{ 
    display:grid;
@@ -233,4 +233,4 @@ ul{
     column-gap: 10px;
     
 }
- */
+
