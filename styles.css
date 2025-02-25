@@ -70,7 +70,7 @@ body {
 }
 
 
-.fruit  {
+.fruit {
     display:grid;
     justify-content: center;
     
@@ -101,62 +101,49 @@ nav{
 }
 
 /* create nav buttons for fruits and Vegetable */
-  .but a {
+  .but{
      background-color: #E75D02;
      border-radius: 5px;
       border: none;
       color:#ffffff;
-      padding: 10px 67px;
+      padding: 10px 57px;
       text-decoration-line: none;
       display:inline-block;
-      font-size: 25px;
-      margin:-6px -8px;
-  } .but1 a {
+      font-size: 20px;
+      /* margin:-6px -8px; */
+      margin-bottom: 20px;
+  }
+      
+  .but1{
     
       background-color: #E75D02;
       border-radius: 5px;
       border: none;
       color:#ffffff;
-      padding: 10px 37px;
+      padding: 10px 38px;
       text-decoration-line: none;
       display:inline-block;
-      font-size: 25px;
-      
-      margin:-6px -8px;
+      font-size: 20px;
+      /* margin:-6px -8px; */
       
 }
+
 /*adjust the text to center in image */
-.text, .text1  {
-    position:relative;
-    /*  */
-    
-}
-#place1{
+
+.place1{
     position:absolute;
     color:white;
-    inset-block:relative;
+    inset-block:10px 150px;
     padding:8px 30px;
     top: 40%;
     left: 23%;   
+   background-color:black ; 
 }
-#place{
-    position:absolute;
-    background-color:black ;
-    opacity: 0.5;
-    inset-block:relative;
-    padding:8px 30px;
-    top: 40%;
-    left: 22%;
-   
-   
-}
-/* padding for images */
-#peaches, #oranges, #apples, #strawberries, 
-#blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons,
- #cantalopes, #broccoli, #lettuce, 
-#eggplant, #spinach, #bean-sprout, #peas,
- #bell-pepper, #carrot, #potato, #cucumber, #tomato, #radish {
+
+/* padding and positioning for images */
+	#peaches, #oranges, #apples, #strawberries, #blueberries, #raspberries, #cherries, #pears, #plums, #grapes, #watermelons, #cantalopes, #broccoli, #lettuce, #eggplant, #spinach, #bean-sprout, #peas, #bell-pepper, #carrot, #potato, #cucumber, #tomato, #radish {
      padding-bottom:5%;
+     position:relative;
 } 
 /* centering veg info */
 .veg{
@@ -191,10 +178,10 @@ footer{
     margin-left: 2%;
 }
 /* position the top link at bottom right */
-.top a {
+.top{
     
-    display: inline-block;
-    background-color: #E75D02;
+    
+      background-color: #E75D02;
       border: none;
       color:#ffffff;
       padding: 10px 20px;
@@ -212,20 +199,38 @@ footer{
     grid-column:auto;
     position:sticky;
     float:right;
-    bottom:0;
+    bottom: 10px;
+    margin-right:15px;
     
 }
-#address, #hours {
+#address, dl {
     text-align: center;
-    padding-bottom: 10px;
-   background-color:#06A816 ; 
-   color:white;
-   font-weight:bold;
+    padding-bottom: 2px;
+    background-color:#06A816 ; 
+     color:white;
 }
 .copy{
     text-align:center;
     color:green;
-    padding-top:10px;
-    font-weight:bold;
 }
+/* @media screen and (min-width: 600px){
+    
+   
 }
+ul{ 
+   display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fruit{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap: 10px;
+}
+.veg{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap: 10px;
+    
+}
+ */
