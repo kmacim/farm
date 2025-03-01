@@ -68,12 +68,7 @@ body {
     
     
 }
-@media screen and (min-width: 428px){
-    
-    #friveg {
-        
-    }
- }
+
 .fruit {
     display:grid;
     justify-content: center;
@@ -218,16 +213,12 @@ footer{
     color:green;
 }
 @media screen and (min-width:834px) {
-    /*  */
     
-}
-
-/* change to two column */
+    /* change to two column */
 ul{ 
    display:grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .fruit{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -239,18 +230,19 @@ ul{
     column-gap: 10px;
     
 }
+}
+
+
+
+
 
 @media screen and (min-width:1280px) {
     /*  */
-    
-}
-
-/* change to two column */
+    /* change to two column */
 ul{ 
    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .fruit{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -262,13 +254,15 @@ ul{
     column-gap: 10px;
     
 }
+}
+
+
+
+
 
 @media screen and (min-width:1440px) {
     /*  */
-    
-}
-
-/* change to two column */
+   /* change to two column */
 ul{ 
    display:grid;
     grid-template-columns: 2fr 2fr;
@@ -285,3 +279,6 @@ ul{
     column-gap: 10px;
     
 }
+ 
+}
+
